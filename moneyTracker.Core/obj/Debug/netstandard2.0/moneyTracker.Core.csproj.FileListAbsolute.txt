@@ -1,0 +1,10 @@
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\bin\Debug\netstandard2.0\moneyTracker.Core.deps.json
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\bin\Debug\netstandard2.0\moneyTracker.Core.dll
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\bin\Debug\netstandard2.0\moneyTracker.Core.pdb
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\obj\Debug\netstandard2.0\moneyTracker.Core.csproj.AssemblyReference.cache
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\obj\Debug\netstandard2.0\moneyTracker.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\obj\Debug\netstandard2.0\moneyTracker.Core.AssemblyInfoInputs.cache
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\obj\Debug\netstandard2.0\moneyTracker.Core.AssemblyInfo.cs
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\obj\Debug\netstandard2.0\moneyTracker.Core.csproj.CoreCompileInputs.cache
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\obj\Debug\netstandard2.0\moneyTracker.Core.dll
+D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\obj\Debug\netstandard2.0\moneyTracker.Core.pdb

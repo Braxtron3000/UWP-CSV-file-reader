@@ -1,0 +1,1 @@
+D:\otherprojs\desktop\moneyTracker\moneyTracker\moneyTracker.csproj;x86
