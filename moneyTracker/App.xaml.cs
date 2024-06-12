@@ -21,6 +21,8 @@ namespace moneyTracker
             InitializeComponent();
             UnhandledException += OnAppUnhandledException;
 
+            DataAccess.InitializeDatabase();
+
             // Deferred execution until used. Check https://docs.microsoft.com/dotnet/api/system.lazy-1 for further info on Lazy<T> class.
             _activationService = new Lazy<ActivationService>(CreateActivationService);
         }

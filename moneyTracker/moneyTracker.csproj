@@ -116,6 +116,12 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="CsvHelper">
+      <Version>32.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Data.Sqlite.Core">
+      <Version>8.0.6</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.12</Version>
     </PackageReference>
@@ -145,6 +151,7 @@
     <Compile Include="Helpers\NavHelper.cs" />
     <Compile Include="Services\ActivationService.cs" />
     <Compile Include="Activation\DefaultActivationHandler.cs" />
+    <Compile Include="Services\DataAccess.cs" />
     <Compile Include="Services\NavigationService.cs" />
     <Compile Include="ViewModels\DataGridViewModel.cs" />
     <Compile Include="ViewModels\ListDetailsViewModel.cs" />

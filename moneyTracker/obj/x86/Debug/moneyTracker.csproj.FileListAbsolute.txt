@@ -28,7 +28,9 @@ D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\ColorCode.Core.dll
 D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\ColorCode.Core.pdb
 D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\ColorCode.UWP.dll
 D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\ColorCode.UWP.pdb
+D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\CsvHelper.dll
 D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Microsoft.Bcl.HashCode.dll
 D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Microsoft.EntityFrameworkCore.dll
 D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Microsoft.EntityFrameworkCore.Relational.dll
@@ -140,6 +142,7 @@ D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\Microsoft.Xaml.Int
 D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\moneyTracker.exe
 D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\moneyTracker.pdb
 D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\ResourceHandlingTask.state
+D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\FxResources.Microsoft.Bcl.HashCode.SR.resw
 D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\Microsoft.EntityFrameworkCore\en-US\Microsoft.EntityFrameworkCore.Properties.CoreStrings.resw
 D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\Microsoft.EntityFrameworkCore.Abstractions\en-US\Microsoft.EntityFrameworkCore.Properties.AbstractionsStrings.resw
 D:\otherprojs\desktop\moneyTracker\moneyTracker\obj\x86\Debug\Microsoft.EntityFrameworkCore.Relational\en-US\Microsoft.EntityFrameworkCore.Properties.RelationalStrings.resw
