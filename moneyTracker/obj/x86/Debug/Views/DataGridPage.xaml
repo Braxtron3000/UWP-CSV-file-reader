@@ -5,7 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:model="using:moneyTracker.Core.Models"
-    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls" xmlns:viewmodels="using:moneyTracker.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:DataGridViewModel}"
     x:Class="moneyTracker.Views.DataGridPage"
     Style="{StaticResource PageStyle}"
     mc:Ignorable="d">
@@ -22,21 +22,21 @@
                         Remove this column definitions and define columns for your data.
                         Consider adding header properties to Resources.resw
                     -->
-                    <controls:DataGridTextColumn Binding="{Binding OrderID}" Header="Description" />
-                    <controls:DataGridTextColumn Binding="{Binding OrderDate}" Header="Category" />
-                    <controls:DataGridTextColumn Binding="{Binding Company}" Header="Amount" />
-                    <controls:DataGridTextColumn Binding="{Binding ShipTo}" Header="Date" />
-                    <controls:DataGridTemplateColumn Header="Symbol">
+                    <controls:DataGridTextColumn Binding="{Binding Description}" Header="Description" />
+                    <controls:DataGridTextColumn Binding="{Binding Category}" Header="Category" />
+                    <controls:DataGridTextColumn Binding="{Binding Amount}" Header="Amount" />
+                    <controls:DataGridTextColumn Binding="{Binding Date}" Header="Date" />
+                    <!--<controls:DataGridTemplateColumn Header="Symbol">
                         <controls:DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate                               >
-                                <FontIcon x:ConnectionId='6'
+                            <DataTemplate x:DataType="model:SampleOrder">
+                                <FontIcon
                                     Margin="{StaticResource SmallLeftRightMargin}"
                                     HorizontalAlignment="Left"
                                     FontFamily="{ThemeResource SymbolThemeFontFamily}"
-                                                                 />
+                                    Glyph="{x:Bind Path=Symbol}" />
                             </DataTemplate>
                         </controls:DataGridTemplateColumn.CellTemplate>
-                    </controls:DataGridTemplateColumn>
+                    </controls:DataGridTemplateColumn>-->
                 </controls:DataGrid.Columns>
             </controls:DataGrid>
             <Custom:DropDownButton Content="DropDownButton" Margin="489,10,0,0" VerticalAlignment="Top"/>

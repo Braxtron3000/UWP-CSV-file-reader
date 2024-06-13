@@ -44,6 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.2.6, )"
@@ -121,7 +125,7 @@
               "target": "Package",
               "version": "[32.0.3, )"
             },
-            "Microsoft.Data.Sqlite.Core": {
+            "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[8.0.6, )"
             },

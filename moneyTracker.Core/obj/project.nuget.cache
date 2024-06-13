@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "g7wy6p7FH0Ac6UqSt4WQk/+bw5N5+Pc6F/+Z9VBwvJDgWZ4+9/VP+s2BAhaEWJZzP02C93jFOxy5BvoKzAQhiQ==",
+  "dgSpecHash": "8ezOOiXKqqqT86clJETu9waVkLqKu8buXEBJKJdmDj6fS6U8sU2sSNFqnXj7f8PgXtKZmykq3hLTui9j+V9G3A==",
   "success": true,
   "projectFilePath": "D:\\otherprojs\\desktop\\moneyTracker\\moneyTracker.Core\\moneyTracker.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Brax\\.nuget\\packages\\microsoft.data.sqlite\\8.0.6\\microsoft.data.sqlite.8.0.6.nupkg.sha512",
+    "C:\\Users\\Brax\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.6\\microsoft.data.sqlite.core.8.0.6.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.2.6\\microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512",
@@ -29,6 +31,10 @@
     "C:\\Users\\Brax\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Brax\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Brax\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\Brax\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\Brax\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\Brax\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",

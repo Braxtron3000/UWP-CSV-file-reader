@@ -119,7 +119,7 @@
     <PackageReference Include="CsvHelper">
       <Version>32.0.3</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.Data.Sqlite.Core">
+    <PackageReference Include="Microsoft.Data.Sqlite">
       <Version>8.0.6</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">

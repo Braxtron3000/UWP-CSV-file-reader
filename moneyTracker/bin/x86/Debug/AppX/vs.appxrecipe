@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-12T15:36:19.005</Modified>
+      <Modified>2024-06-13T04:54:22.374</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\moneyTracker.exe">
       <PackagePath>entrypoint\moneyTracker.exe</PackagePath>
-      <Modified>2024-06-12T15:36:17.605</Modified>
+      <Modified>2024-06-13T04:54:21.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\moneyTracker.exe.config">
       <PackagePath>moneyTracker.exe.config</PackagePath>
@@ -61,6 +61,10 @@
     <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\microsoft.bcl.hashcode\1.1.1\lib\netstandard2.0\Microsoft.Bcl.HashCode.dll">
       <PackagePath>Microsoft.Bcl.HashCode.dll</PackagePath>
       <Modified>2020-11-16T21:14:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\microsoft.data.sqlite.core\8.0.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2024-05-19T23:55:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\microsoft.entityframeworkcore\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
@@ -182,6 +186,22 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-05T01:15:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2023-08-23T18:41:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2023-08-23T18:38:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2023-08-23T18:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2023-08-23T18:38:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
       <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
       <Modified>2019-11-15T08:37:04.000</Modified>
@@ -220,7 +240,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker.Core\bin\Debug\netstandard2.0\moneyTracker.Core.dll">
       <PackagePath>moneyTracker.Core.dll</PackagePath>
-      <Modified>2024-06-09T15:58:06.634</Modified>
+      <Modified>2024-06-13T03:40:36.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Brax\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -294,51 +314,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\moneyTracker.xr.xml">
       <PackagePath>moneyTracker.xr.xml</PackagePath>
-      <Modified>2024-06-07T23:10:03.269</Modified>
+      <Modified>2024-06-13T04:54:21.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.485</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.484</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.484</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.484</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.485</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.485</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Views\DataGridPage.xbf">
       <PackagePath>Views\DataGridPage.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.485</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Views\ListDetailsDetailControl.xbf">
       <PackagePath>Views\ListDetailsDetailControl.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.479</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Views\ListDetailsPage.xbf">
       <PackagePath>Views\ListDetailsPage.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.485</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.485</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2024-06-12T15:36:17.485</Modified>
+      <Modified>2024-06-13T04:54:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -354,11 +374,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-09T16:13:26.809</Modified>
+      <Modified>2024-06-12T23:58:09.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\otherprojs\desktop\moneyTracker\moneyTracker\bin\x86\Debug\Core\moneyTracker.exe">
       <PackagePath>moneyTracker.exe</PackagePath>
-      <Modified>2024-06-12T15:36:19.001</Modified>
+      <Modified>2024-06-13T04:54:22.372</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

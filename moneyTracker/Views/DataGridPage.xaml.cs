@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using CsvHelper;
 using CsvHelper.Configuration;
+using moneyTracker.Core.Models;
+using moneyTracker.Services;
 using moneyTracker.ViewModels;
 
 using Windows.UI.Xaml.Controls;
@@ -19,6 +21,7 @@ namespace moneyTracker.Views
         // For more details see the documentation at https://docs.microsoft.com/windows/communitytoolkit/controls/datagrid
         public DataGridPage()
         {
+            DataContext = ViewModel;
             InitializeComponent();
         }
 
@@ -31,7 +34,6 @@ namespace moneyTracker.Views
 
         private async void Button_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine($"WHATS UP I AM A BUTTON AHHHHHH");
             var picker = new Windows.Storage.Pickers.FileOpenPicker();
             picker.ViewMode = Windows.Storage.Pickers.PickerViewMode.Thumbnail;
             picker.SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.Downloads;
@@ -41,13 +43,15 @@ namespace moneyTracker.Views
             if (file != null)
             {
                 // Application now has read/write access to the picked file
-                //this.textBlock.Text = "Picked photo: " + file.Name;
+
+                //Todo: move csv file manipulation to service.
+
                 System.Diagnostics.Debug.WriteLine("BB FILE NAME =" + file.Path);
 
                 //convert to streamreader
                 var randomAccessStream = await file.OpenReadAsync();
                 Stream stream = randomAccessStream.AsStreamForRead();
-                
+
 
 
                 //using (var reader = new StreamReader("C:\\Users\\Brax\\Downloads\\accountActivityExport (16).csv"))
@@ -59,10 +63,17 @@ namespace moneyTracker.Views
                     var streets = (from s in records select s);
                     System.Diagnostics.Debug.WriteLine("yo mama " + streets.First().Description);
 
-                    records.ForEach(m => System.Diagnostics.Debug.WriteLine("and me: " + m.Description));
-                }
+                    records.ForEach(m =>
+                    {
+                        System.Diagnostics.Debug.WriteLine("and me: " + m.Description);
 
+                        //Todo: move csv file string manipulation to its own helper.
+                        String adjustedAmount = (m.Deposits.Length > 0 ? "-" + m.Deposits.Remove(0, 1) : "+" + m.Withdrawals.Remove(0, 1));
+                        DataAccess.AddData(new FinancialTransaction(m.Date, m.Description, m.Category,adjustedAmount));
+                });
             }
+
+        }
             else
             {
                 //this.textBlock.Text = "Operation cancelled.";
@@ -70,31 +81,32 @@ namespace moneyTracker.Views
 
 
             }
-        }
+
+}
     }
 
     public class Transaction
-    {
-        public string Date { get; set; }
-        public string Description { get; set; }
-        public string Withdrawals { get; set; }
-        public string Deposits { get; set; }
-        public string Category { get; set; }
-        public string Balance { get; set; }
-    }
+{
+    public string Date { get; set; }
+    public string Description { get; set; }
+    public string Withdrawals { get; set; }
+    public string Deposits { get; set; }
+    public string Category { get; set; }
+    public string Balance { get; set; }
+}
 
-    public class StreetClassMap : ClassMap<Transaction>
+public class StreetClassMap : ClassMap<Transaction>
+{
+    public StreetClassMap()
     {
-        public StreetClassMap()
-        {
-            Map(m => m.Date);
-            Map(m => m.Description);
-            Map(m => m.Withdrawals);
-            Map(m => m.Deposits);
-            Map(m => m.Category);
-            Map(m => m.Balance);
-        }
+        Map(m => m.Date);
+        Map(m => m.Description);
+        Map(m => m.Withdrawals);
+        Map(m => m.Deposits);
+        Map(m => m.Category);
+        Map(m => m.Balance);
     }
+}
 
 
 
